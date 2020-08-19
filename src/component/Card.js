@@ -10,15 +10,6 @@ export const Card = (props) => {
           <div className="card-style">
             <img src={props.imageSrc} alt="..." />
             <div>
-              {/* <p className="parag">
-                {props.first}
-                {props.aaa}
-                {props.bbb}
-                {props.ccc}
-                {props.first}
-                {props.first}
-              </p>
- */}
               <p className="parag">{props.first}</p>
               <p className="parag">{props.name}</p>
               <p className="parag">{props.third}</p>
